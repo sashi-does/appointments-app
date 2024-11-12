@@ -1,0 +1,33 @@
+.appointment {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid #b5b7c4;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reason {
+  font-weight: bold;
+}
+
+.schedule-time {
+  color: #8e9098;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.like-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
