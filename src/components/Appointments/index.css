@@ -32,9 +32,10 @@
 
 .image-section {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  padding: 30px;
+  width: 80%;
+  height: 65%;
 }
 
 .divider {
@@ -48,8 +49,8 @@
 }
 
 .hero-image {
-  width: 350px;
-  height: 230px;
+  height: 60%;
+  width: 70%;
 }
 
 .schedule-section {
