@@ -12,10 +12,14 @@
   align-items: center;
 }
 
+.main-heading {
+  font-size: 30px;
+}
+
 .book-appointment-section {
   background-color: #fff;
   padding: 20px;
-  width: 80%;
+  width: 65%;
   border-radius: 8px;
 }
 
@@ -53,9 +57,15 @@
 }
 
 @media all and (max-width: 767px) {
+  .main-heading {
+    font-size: 21px;
+  }
   .appointment-page {
     display: flex;
     justify-content: center;
+  }
+  .appointment-heading {
+    font-size: 15px !important;
   }
   .hero-section {
     display: flex;
@@ -66,6 +76,11 @@
   }
   .image-section {
     display: none;
+  }
+  .starred {
+    font-size: 10px;
+    padding: 7px 8px !important;
+    border-radius: 10px;
   }
 }
 
@@ -87,9 +102,10 @@
 
 .starred {
   border: 1px solid #9897f0;
-  padding: 5px 13px;
-  border-radius: 14px;
+  padding: 7px 15px;
+  border-radius: 18px;
   color: #9897f0;
+  font-size: 14px;
   background-color: transparent;
 }
 
@@ -106,6 +122,7 @@
 .all-appointments {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .appointments {
@@ -119,6 +136,6 @@
 }
 
 .appointment-heading {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
